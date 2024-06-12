@@ -2,7 +2,7 @@ import axios from "axios";
 import { PositionInterface } from "./interfaces";
 import { parsePositionRequest } from "./apiParsers";
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "192.168.0.102:8000";
 
 const POSITION_ENDPOINT = "/api/v1/posicion";
 

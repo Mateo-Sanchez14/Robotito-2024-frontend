@@ -14,10 +14,10 @@ function App() {
     setCount((count) => count + 1);
 
     for (let i = 0; i < 20; i++) {
-      let randomElevation = Math.floor(Math.random() * 80);
-      let randomDistance = Math.floor(Math.random() * 80);
-      let randomRotation = Math.floor(Math.random() * 80);
-      let randomHand = Math.floor(Math.random() * 50);
+      let randomElevation = Math.floor(Math.random() * 161) - 80;
+      let randomDistance = Math.floor(Math.random() * 161) - 80;
+      let randomRotation = Math.floor(Math.random() * 161) - 80;
+      let randomHand = Math.floor(Math.random() * 101) - 50;
 
       setTimeout(() => {
         postPosition({
